@@ -1,12 +1,10 @@
 # doublefn/rev1
 
-![doublefn/rev1](imgur.com image replace me!)
+Keyboard with two layers of f-keys (F1-F12, F13-F24).
+Home project, keyboard is made of wood and [SU120](https://github.com/e3w2q/su120-keyboard) PCBs.
+Revision 1 uses STM32F103 (Blue Pill)
 
-*A short description of the keyboard/project*
-
-* Keyboard Maintainer: [Vasilii Kuimov](https://github.com/Vasilii Kuimov)
-* Hardware Supported: *The PCBs, controllers supported*
-* Hardware Availability: *Links to where you can find this hardware*
+* Keyboard Maintainer: [Vasilii Kuimov](https://github.com/anteok)
 
 Make example for this keyboard (after setting up your build environment):
 
