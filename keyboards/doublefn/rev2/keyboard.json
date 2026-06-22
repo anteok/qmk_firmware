@@ -25,8 +25,8 @@
     },
     "encoder": {
         "rotary": [
-            { "pin_a": "B12", "pin_b": "B13" },
-            { "pin_a": "B14", "pin_b": "B15" }
+            { "pin_a": "A13", "pin_b": "A14" },
+            { "pin_a": "C15", "pin_b": "C14" }
         ]
     },
     "processor": "STM32F401",
