@@ -1,8 +1,8 @@
 {
     "manufacturer": "anteok",
-    "keyboard_name": "doublefn/rev1",
+    "keyboard_name": "doublefn/rev2",
     "maintainer": "Vasilii Kuimov",
-    "bootloader": "stm32-dfu",
+    "bootloader": "tinyuf2",
     "diode_direction": "COL2ROW",
     "features": {
         "bootmagic": true,
@@ -12,6 +12,13 @@
         "mousekey": true,
         "nkro": true
     },
+    "qmk": {
+        "locking": {
+            "enabled": true,
+            "resync": true
+        }
+    },
+    "development_board": "blackpill_f401",
     "matrix_pins": {
         "cols": ["B12", "B13", "B14", "B15", "A8", "A15", "B3", "B4", "B5", "B6", "B7", "B8", "B9", "B10", "A0", "B1", "B0"],
         "rows": ["A7", "A6", "A5", "A4", "A3", "A2", "A1"]
