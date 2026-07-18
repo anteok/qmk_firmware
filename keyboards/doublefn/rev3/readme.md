@@ -2,17 +2,17 @@
 
 Keyboard with two layers of f-keys (F1-F12, F13-F24).
 Home project, keyboard is made of wood and [SU120](https://github.com/e3w2q/su120-keyboard) PCBs.
-Revision 2 uses STM32F103 (Blue Pill)
+Revision 3 uses STM32F466
 
 * Keyboard Maintainer: [Vasilii Kuimov](https://github.com/anteok)
 
 Make example for this keyboard (after setting up your build environment):
 
-    make doublefn/rev2:default
+    make doublefn/rev3:default
 
 Flashing example for this keyboard:
 
-    make doublefn/rev2:default:flash
+    make doublefn/rev3:default:flash
 
 See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
 

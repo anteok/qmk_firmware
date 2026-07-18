@@ -2,7 +2,7 @@
 
 Keyboard with two layers of f-keys (F1-F12, F13-F24).
 Home project, keyboard is made of wood and [SU120](https://github.com/e3w2q/su120-keyboard) PCBs.
-Revision 2 uses STM32F103 (Blue Pill)
+Revision 2 uses STM32F1401 (Black Pill)
 
 * Keyboard Maintainer: [Vasilii Kuimov](https://github.com/anteok)
 
