@@ -29,7 +29,7 @@ static painter_image_handle_t my_image;
 
 void keyboard_post_init_kb(void) {
     display =  qp_st7735_make_spi_device(LCD_WIDTH, LCD_HEIGHT, LCD_CS_PIN, LCD_DC_PIN, LCD_RST_PIN, 8, 3);
-    qp_init(display,QP_ROTATION_0);table
+    qp_init(display,QP_ROTATION_0);
     my_image = qp_load_image_mem(gfx_some);
     if (my_image != NULL) {
         qp_drawimage(display,
