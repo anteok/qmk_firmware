@@ -1,0 +1,21 @@
+#pragma once
+
+// SPI Configuration
+#define SPI_DRIVER SPID1
+#define SPI_SCK_PIN A5
+#define SPI_MOSI_PIN A7
+#define SPI_MISO_PIN NO_PIN
+
+// SPI LCD Configuration
+#define LCD_RST_PIN C1
+#define LCD_CS_PIN C2
+#define LCD_DC_PIN C3
+#ifndef LCD_ACTIVITY_TIMEOUT
+    #define LCD_ACTIVITY_TIMEOUT 30000
+#endif
+
+#define QUANTUM_PAINTER_SUPPORTS_256_PALETTE TRUE
+#define QUANTUM_PAINTER_SUPPORTS_NATIVE_COLORS TRUE
+
+#define LCD_WIDTH  128
+#define LCD_HEIGHT 160
